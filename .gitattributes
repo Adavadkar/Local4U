@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Exclude binary files from line ending normalization
+*.jpg binary
+*.png binary
+*.gif binary
+*.zip binary
+*.woff binary
