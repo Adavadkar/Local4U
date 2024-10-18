@@ -5,6 +5,7 @@ from django.shortcuts import render
 from Home.models import Category
 
 
+
 # Create your views here.
 def index(request):
     cat1 = Category()
