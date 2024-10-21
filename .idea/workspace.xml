@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84b9fa2d-d9d0-4211-90b6-370541972e74" name="Changes" comment="Adding Home page and Category table">
+      <change afterPath="$PROJECT_DIR$/LocalFarmers/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.pract1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Aditi/PycharmProjects/djangoProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditi/PycharmProjects/djangoProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aditi\PycharmProjects\djangoProject\static" />
@@ -74,7 +83,8 @@
       <workItem from="1728855682008" duration="115000" />
       <workItem from="1728855809075" duration="11000" />
       <workItem from="1728855827250" duration="41000" />
-      <workItem from="1728855878301" duration="38451000" />
+      <workItem from="1728855878301" duration="50476000" />
+      <workItem from="1729547013051" duration="739000" />
     </task>
     <servers />
   </component>
