@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='product',
             name='farmer',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='Products.farmer'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='Products.farmer', null=True),
         ),
     ]
