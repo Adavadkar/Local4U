@@ -1,7 +1,8 @@
 from django.shortcuts import render
 
 from django.shortcuts import render, get_object_or_404
-from .models import Farmer, Product
+from .models import (Farmer)
+from Products.models import Product
 from Home.models import Category
 
 # View to display products by category
