@@ -267,8 +267,8 @@
           
           <div class="col-sm-4 col-lg-2 text-center text-sm-start d-flex gap-3 justify-content-center justify-content-md-start">
             <div class="d-flex align-items-center my-3 my-sm-0">
-              <a href="index.html">
-                <img src="{% static 'images/logo.svg' %}" alt="logo" class="img-fluid">
+              <a href="/">
+                <img src="{% static 'images/logo.jpeg' %}" width="70%" height="70%" alt="logo" class="img-fluid">
               </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -282,14 +282,14 @@
               <div class="col-md-4 d-none d-md-block">
                 <select class="form-select border-0 bg-transparent">
                   <option>All Categories</option>
-                  <option>Groceries</option>
-                  <option>Drinks</option>
-                  <option>Chocolates</option>
+                  <option>Fruits & Vegetables</option>
+                  <option>Meat</option>
+                  <option>Organic Honey</option>
                 </select>
               </div>
               <div class="col-11 col-md-7">
                 <form id="search-form" class="text-center" action="index.html" method="post">
-                  <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for more than 20,000 products">
+                  <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for products">
                 </form>
               </div>
               <div class="col-1">
@@ -301,7 +301,7 @@
           <div class="col-lg-4">
             <ul class="navbar-nav list-unstyled d-flex flex-row gap-3 gap-lg-5 justify-content-center flex-wrap align-items-center mb-0 fw-bold text-uppercase text-dark">
               <li class="nav-item active">
-                <a href="index.html" class="nav-link">Home</a>
+                <a href="/" class="nav-link">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle pe-3" role="button" id="pages" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
@@ -326,7 +326,7 @@
           <div class="col-sm-8 col-lg-2 d-flex gap-5 align-items-center justify-content-center justify-content-sm-end">
             <ul class="d-flex justify-content-end list-unstyled m-0">
               <li>
-                <a href="#" class="p-2 mx-1">
+                <a href="/login" class="p-2 mx-1">
                   <svg width="24" height="24"><use xlink:href="#user"></use></svg>
                 </a>
               </li>
@@ -355,7 +355,7 @@
             <p class="fs-4">Go Green Be Organic!</p>
             <div class="d-flex gap-3">
               <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Shopping</a>
-              <a href="#" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
+              <a href="/signup" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
             </div>
             <div class="row my-5">
               <div class="col">
@@ -390,7 +390,7 @@
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">Fresh from farm</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">A greener tomorrow—where innovation meets the soil.</p>
                   </div>
                 </div>
               </div>
@@ -405,10 +405,11 @@
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">100% Organic</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">Discover the future of farming with sustainable practices.</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
           <div class="col">
@@ -420,7 +421,7 @@
                 <div class="col-md-9">
                   <div class="card-body p-0">
                     <h5 class="text-light">Free delivery</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    <p class="card-text">Empower farmers to maximize crop health</p>
                   </div>
                 </div>
               </div>
@@ -1689,7 +1690,7 @@
                 <div class="product-item swiper-slide">
                   <figure>
                     <a href="index.html" title="Product Title">
-                      <img src="{ % static 'images/product-thumb-20.png' %}" alt="Product Thumbnail" class="tab-image">
+                      <img src="{% static 'images/product-thumb-20.png' %}" alt="Product Thumbnail" class="tab-image">
                     </a>
                   </figure>
                   <div class="d-flex flex-column text-center">
@@ -1992,7 +1993,7 @@
       </div>
     </section>
 
-    <section id="latest-blog" class="pb-4">
+    <!--<section id="latest-blog" class="pb-4">
       <div class="container-lg">
         <div class="row">
           <div class="section-header d-flex align-items-center justify-content-between my-4">
@@ -2066,31 +2067,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
-    <section class="pb-4 my-4">
-      <div class="container-lg">
 
-        <div class="bg-warning pt-5 rounded-5">
-          <div class="container">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-md-4">
-                <h2 class="mt-5">Download Organic App</h2>
-                <p>Online Orders made easy, fast and reliable</p>
-                <div class="d-flex gap-2 flex-wrap mb-5">
-                  <a href="#" title="App store"><img src="{% static 'images/img-app-store.png' %}" alt="app-store"></a>
-                  <a href="#" title="Google Play"><img src="{% static 'images/img-google-play.png' %}" alt="google-play"></a>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="{% static 'images/banner-onlineapp.png' %}" alt="phone" class="img-fluid">
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </section>
 
     <section class="py-4">
       <div class="container-lg">
@@ -2126,7 +2105,7 @@
               </div>
               <div class="card-body p-0">
                 <h5>Free delivery</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                <p class="card-text">Join us in growing a greener tomorrow—where innovation meets the soil</p>
               </div>
             </div>
           </div>
@@ -2184,7 +2163,7 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="footer-menu">
-              <img src="{% static 'images/logo.svg' %}" width="240" height="70" alt="logo">
+              <img src="{% static 'images/logo.jpeg' %}" width="100%" height="100%" alt="logo">
               <div class="social-links mt-3">
                 <ul class="d-flex list-unstyled gap-2">
                   <li>
