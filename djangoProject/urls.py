@@ -24,6 +24,7 @@ urlpatterns = [
     path('', include('Home.urls')),
     path('products/', include('Products.urls')),
     path('LocalFarmers/', include('LocalFarmers.urls')),
+    path('MyChatBot/', include('MyChatBot.urls')),
 ]
 
 if settings.DEBUG:
